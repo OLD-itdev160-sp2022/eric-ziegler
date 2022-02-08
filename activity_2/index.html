@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2 - Eric Ziegler</title>
+</head>
+<body>
+    <img src="fuzzy_table-1.jpg" alt="Calico cat named Fuzzy" width="500px">
+    <br>
+    <a href="mailto:eric@example.com">Click to email</a>
+    <h1>My Favorite Animals</h1>
+    
+    <!-- Simple table -->
+    <table id="simpleTable" border="1" cellspacing="0">
+        <tr>
+            <th>Animal</th>
+            <th>URL</th>
+        </tr>
+        <tr>
+            <td>Red Panda</td>
+            <td><a href="https://en.wikipedia.org/wiki/Red_panda" target="_blank">Wikipedia page</a></td>
+        </tr>
+        <tr>
+            <td>Cat</td>
+            <td><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">Wikipedia page</a></td>
+        </tr>
+        <tr>
+            <td>Orca</td>
+            <td><a href="https://en.wikipedia.org/wiki/Orca" target="_blank">Wikipedia page</a></td>
+        </tr>
+    </table>
+    <br>
+
+    <!-- Complex table -->
+    <table id="complexTable" border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Attributes</th>
+                <th scope="column">Eats</th>
+                <th scope="column">Sleeps</th>
+                <th scope="column">Cuddly</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">Red Panda</td>
+                <td colspan="2">Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td scope="row">Cat</td>
+                <td colspan="3">Yes</td>
+            </tr>
+            <tr>
+                <td scope="row">Orca</td>
+                <td colspan="2">Yes</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">&copy; Spaghetti Sandwich 2022</td>
+        </tfoot>
+    </table>
+
+</body>
+</html>

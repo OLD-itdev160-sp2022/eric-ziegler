@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    color: #322;
+}
+
+h1{
+    color: #322;
+    background-color: #eee;
+}
+
+img{
+    height: 100px;
+    text-align: left;
+}
+
+figcaption{
+    font-family: 'Oleo Script Swash Caps', 'Brush Script MT', Georgia, serif;
+    font-size: 1.3em;
+}
+
+figcaption span{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: .8em;
+}
+
+p#product-description{
+    margin: 20px 0 20px 0;
+    text-align: justify;
+}
+
+section.review{
+    max-width: 600px;
+    padding: 10px;
+    background-color: #eee;
+    margin: 20px 0 20px 0;
+}

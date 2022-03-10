@@ -27,3 +27,16 @@ header h1{
     border-style: solid;
     border-radius: 20px 0 20px 0;
 }
+
+.package-container footer{
+    margin-top: 1em;
+}
+
+.url-button{
+    padding: .5em;
+    background-color: #3a5;
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: .5em;
+}

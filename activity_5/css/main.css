@@ -1,0 +1,29 @@
+body{
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    margin: auto 10px;
+    background-color: #ddd;
+    color: #222;
+}
+
+header h1{
+    border-bottom: 2px solid;
+}
+
+#credits{
+    font-size: .75em;
+}
+
+#header-image{
+    width: 70%;
+    max-width: 800px;
+}
+
+.package-container{
+    max-width: 800px;
+    margin: 10px 0;
+    padding: 0 10px;
+    background-color: #eee;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px 0 20px 0;
+}

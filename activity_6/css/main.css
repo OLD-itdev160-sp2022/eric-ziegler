@@ -1,0 +1,23 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.messages {
+    margin-bottom: 1em;
+}
+
+.out-message{
+    margin: 1em 0 0 2em;
+    padding: .2em;
+    background-color: cornflowerblue;
+    border-radius: 1em 1em 0 1em;
+}
+
+.in-message{
+    margin: 1em 2em 0 0;
+    padding: .2em;
+    background-color: cadetblue;
+    border-radius: 1em 1em 1em 0;
+}

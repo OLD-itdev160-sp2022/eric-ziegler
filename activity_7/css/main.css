@@ -1,0 +1,23 @@
+body {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+ul{
+    margin: 0;
+}
+
+li{
+    padding: .2em;
+}
+
+#todo-list-container{
+    margin-top: 1.5em;
+}
+
+#completed-list{
+    list-style-type: none;
+}
+
+#completed-list li {
+    text-decoration: line-through;
+}

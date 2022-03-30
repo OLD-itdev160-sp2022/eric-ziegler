@@ -62,8 +62,8 @@ function completeTask(event){
     //         break;
     //     }
     // }
-    
-    var index = id.slice(-1);
+
+    var index = id.slice(5);
     tasks[index].status = taskStatus.completed;
 
     // move to other list element

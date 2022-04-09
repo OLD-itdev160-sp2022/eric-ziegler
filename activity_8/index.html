@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 8 - Blog - Eric Ziegler</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Blogtown Times</h1>
+        <div class="header-menu">
+            <button id="new-button">New</button>
+        </div>
+    </header>
+    <main>
+        <section id="display-content"></section>
+    </main>
+    <footer>
+        ...and a foot to stand on!
+    </footer>
+
+    <!-- model dialog-->
+    <div class="modal" id="modal-dialog">
+        <section>
+            <h2>Title</h2>
+            <input type="text" id="edit-title-text">
+            <span id="edit-title-message"></span>
+        </section>
+        <section>
+            <h2>Content</h2>
+            <textarea id="edit-content-text" cols="30" rows="10"></textarea>
+            <span id="edit-content-message"></span>
+        </section>
+        <footer>
+            <button id="cancel-button">Cancel</button>
+            <button id="save-button">Save</button>
+        </footer>
+    </div>
+    <div id="modal-backdrop"></div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
